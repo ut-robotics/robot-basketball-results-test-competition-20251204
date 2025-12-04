@@ -632,7 +632,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -690,19 +690,25 @@
             ],
             "fouls": [[{"time": 1764873246339}], [{"time": 1764873208586}]],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 49728,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60069,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [
               {"startTime": 1764873174204, "endTime": 1764873203277},
               {"startTime": 1764873217452, "endTime": 1764873238102},
-              {"startTime": 1764873255463, "endTime": null}
+              {"startTime": 1764873255463, "endTime": 1764873265809}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "polva-passat", "name": "Põlva Passat"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 1
+        },
         "ballPlacement": [
           [0, 0],
           [-0.21, 1.15],
@@ -721,21 +727,21 @@
     "byes": [],
     "robotScores": [
       {
-        "robot": {"id": "bbatc", "name": "BBATC"},
-        "score": 2.1,
-        "tieBreakScore": 3.3999999999999995,
+        "robot": {"id": "polva-passat", "name": "Põlva Passat"},
+        "score": 2.9,
+        "tieBreakScore": 2.8,
         "rank": 1
       },
       {
-        "robot": {"id": "polva-passat", "name": "Põlva Passat"},
-        "score": 2,
-        "tieBreakScore": 0.8,
+        "robot": {"id": "bbatc", "name": "BBATC"},
+        "score": 2.1,
+        "tieBreakScore": 3.5,
         "rank": 2
       },
       {
         "robot": {"id": "zz", "name": "ZZ"},
-        "score": 1.9,
-        "tieBreakScore": 2.6,
+        "score": 2,
+        "tieBreakScore": 5.5,
         "rank": 3
       },
       {
@@ -747,13 +753,13 @@
       {
         "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
         "score": 0.5,
-        "tieBreakScore": 5.1,
+        "tieBreakScore": 6.1000000000000005,
         "rank": 5
       },
       {
         "robot": {"id": "saucisson", "name": "Saucisson"},
         "score": 0.30000000000000004,
-        "tieBreakScore": 5.300000000000001,
+        "tieBreakScore": 6.199999999999999,
         "rank": 6
       }
     ],
@@ -765,7 +771,7 @@
       "polva-passat": ["magenta", "blue", "blue"],
       "saucisson": ["blue", "blue", "magenta"]
     },
-    "hasEnded": false
+    "hasEnded": true
   },
   "activeGame": {
     "id": 9,
@@ -775,7 +781,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -833,19 +839,25 @@
         ],
         "fouls": [[{"time": 1764873246339}], [{"time": 1764873208586}]],
         "baskets": ["blue", "magenta"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 49728,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60069,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [
           {"startTime": 1764873174204, "endTime": 1764873203277},
           {"startTime": 1764873217452, "endTime": 1764873238102},
-          {"startTime": 1764873255463, "endTime": null}
+          {"startTime": 1764873255463, "endTime": 1764873265809}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "polva-passat", "name": "Põlva Passat"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 1
+    },
     "ballPlacement": [
       [0, 0],
       [-0.21, 1.15],

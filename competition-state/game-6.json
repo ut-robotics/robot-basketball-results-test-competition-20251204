@@ -3,7 +3,7 @@
   "robots": [{"id": "zz", "name": "ZZ"}, {"id": "bbatc", "name": "BBATC"}],
   "startingBaskets": ["blue", "magenta"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [[{"time": 1764871490152, "isValid": true}], []],
@@ -49,10 +49,10 @@
       ],
       "fouls": [[], []],
       "baskets": ["blue", "magenta"],
-      "hasEnded": false,
-      "isConfirmed": false,
+      "hasEnded": true,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
-      "runs": [{"startTime": 1764871727975, "endTime": null}]
+      "runs": [{"startTime": 1764871727975, "endTime": 1764871788057}]
     }
   ],
   "ballPlacement": [

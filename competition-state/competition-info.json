@@ -24,15 +24,15 @@
       {"id": "saucisson", "name": "Saucisson"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3, 4, 5, 6],
+    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9],
     "byes": [],
     "robotStartingBaskets": {
-      "hugo-toom": ["blue", "magenta"],
-      "zz": ["magenta", "blue"],
-      "robotina-robotica": ["blue", "magenta"],
-      "bbatc": ["magenta", "magenta"],
-      "polva-passat": ["magenta", "blue"],
-      "saucisson": ["blue", "blue"]
+      "hugo-toom": ["blue", "magenta", "blue"],
+      "zz": ["magenta", "blue", "magenta"],
+      "robotina-robotica": ["blue", "magenta", "magenta"],
+      "bbatc": ["magenta", "magenta", "blue"],
+      "polva-passat": ["magenta", "blue", "blue"],
+      "saucisson": ["blue", "blue", "magenta"]
     },
     "hasEnded": false
   }

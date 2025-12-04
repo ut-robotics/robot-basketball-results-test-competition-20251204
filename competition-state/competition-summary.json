@@ -640,10 +640,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 2,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1764872857117, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -712,65 +712,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 8,
+    "id": 9,
     "robots": [
-      {"id": "bbatc", "name": "BBATC"},
-      {"id": "saucisson", "name": "Saucisson"}
+      {"id": "polva-passat", "name": "Põlva Passat"},
+      {"id": "zz", "name": "ZZ"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [[{"time": 1764872553717, "isValid": true}], []],
-        "fouls": [[], [{"time": 1764872500187}, {"time": 1764872560027}]],
+        "scores": [[], []],
+        "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60086,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 2,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1764872468375, "endTime": 1764872494346},
-          {"startTime": 1764872544968, "endTime": 1764872555086},
-          {"startTime": 1764872581597, "endTime": 1764872605594}
-        ]
-      },
-      {
-        "scores": [[{"time": 1764872784060, "isValid": true}], []],
-        "fouls": [[], [{"time": 1764872683725}, {"time": 1764872738765}]],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60068,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1764872661653, "endTime": 1764872673960},
-          {"startTime": 1764872712894, "endTime": 1764872732613},
-          {"startTime": 1764872768784, "endTime": 1764872796826}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1764872857117, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "bbatc", "name": "BBATC"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.3, -0.87],
-      [-0.3, 0.87],
-      [1.85, -1.29],
-      [-1.85, 1.29],
-      [-1.02, -1.32],
-      [1.02, 1.32],
-      [1.78, 0.91],
-      [-1.78, -0.91],
-      [0.66, -0.41],
-      [-0.66, 0.41]
+      [-0.21, 1.15],
+      [0.21, -1.15],
+      [-1.62, -1.09],
+      [1.62, 1.09],
+      [-1.69, 1.37],
+      [1.69, -1.37],
+      [0.73, -0.52],
+      [-0.73, 0.52],
+      [-1.04, -1.34],
+      [1.04, 1.34]
     ]
   }
 }

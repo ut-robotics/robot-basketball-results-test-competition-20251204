@@ -254,10 +254,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 7,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1764870531145, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -400,78 +400,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 3,
+    "id": 4,
     "robots": [
-      {"id": "polva-passat", "name": "Põlva Passat"},
+      {"id": "robotina-robotica", "name": "Robotina Robotica"},
       {"id": "saucisson", "name": "Saucisson"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1764870139507, "isValid": true},
-            {"time": 1764870144730, "isValid": true},
-            {"time": 1764870147728, "isValid": true},
-            {"time": 1764870153725, "isValid": true},
-            {"time": 1764870174855, "isValid": true},
-            {"time": 1764870182875, "isValid": true}
-          ],
-          []
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60057,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 7,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1764870123488, "endTime": 1764870183545}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1764870260867, "isValid": true},
-            {"time": 1764870263920, "isValid": true},
-            {"time": 1764870288125, "isValid": true},
-            {"time": 1764870295312, "isValid": true}
-          ],
-          []
-        ],
-        "fouls": [[{"time": 1764870309507}], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60095,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1764870245777, "endTime": 1764870299808},
-          {"startTime": 1764870345854, "endTime": 1764870351918}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1764870531145, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "polva-passat", "name": "Põlva Passat"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.25, 0.12],
-      [-0.25, -0.12],
-      [0.91, 1.01],
-      [-0.91, -1.01],
-      [-1.15, -1.25],
-      [1.15, 1.25],
-      [-1.81, 0.74],
-      [1.81, -0.74],
-      [-1.53, 0.59],
-      [1.53, -0.59]
+      [-1.24, -0.11],
+      [1.24, 0.11],
+      [1.96, 0.78],
+      [-1.96, -0.78],
+      [1.02, 1.25],
+      [-1.02, -1.25],
+      [-1.73, -0.35],
+      [1.73, 0.35],
+      [0.96, -1.44],
+      [-0.96, 1.44]
     ]
   }
 }

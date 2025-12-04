@@ -518,15 +518,27 @@
             "scores": [[], []],
             "fouls": [[{"time": 1764872198459}], []],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 58559,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60018,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [
               {"startTime": 1764872121774, "endTime": 1764872155149},
-              {"startTime": 1764872167165, "endTime": 1764872192349}
+              {"startTime": 1764872167165, "endTime": 1764872192349},
+              {"startTime": 1764872217917, "endTime": 1764872219376}
             ]
+          },
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
           }
         ],
         "status": {"result": "unknown"},
@@ -703,15 +715,27 @@
         "scores": [[], []],
         "fouls": [[{"time": 1764872198459}], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 58559,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60018,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [
           {"startTime": 1764872121774, "endTime": 1764872155149},
-          {"startTime": 1764872167165, "endTime": 1764872192349}
+          {"startTime": 1764872167165, "endTime": 1764872192349},
+          {"startTime": 1764872217917, "endTime": 1764872219376}
         ]
+      },
+      {
+        "scores": [[], []],
+        "fouls": [[], []],
+        "baskets": ["magenta", "blue"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 0,
+        "timeLimit": 60000,
+        "winnerIndex": -1,
+        "runs": []
       }
     ],
     "status": {"result": "unknown"},

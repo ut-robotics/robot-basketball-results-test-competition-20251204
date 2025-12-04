@@ -104,10 +104,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 11,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1764869779223, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -213,66 +213,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1,
+    "id": 2,
     "robots": [
-      {"id": "hugo-toom", "name": "Hugo Toom"},
-      {"id": "zz", "name": "ZZ"}
+      {"id": "robotina-robotica", "name": "Robotina Robotica"},
+      {"id": "bbatc", "name": "BBATC"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [[], [{"time": 1764869503731, "isValid": true}]],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60019,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 11,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1764869423063, "endTime": 1764869469596},
-          {"startTime": 1764869493409, "endTime": 1764869506895}
-        ]
-      },
-      {
-        "scores": [
-          [],
-          [
-            {"time": 1764869599445, "isValid": true},
-            {"time": 1764869618111, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60096,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1764869577366, "endTime": 1764869637462}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1764869779223, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "zz", "name": "ZZ"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.38, 0.98],
-      [-1.38, -0.98],
-      [-0.57, 0.2],
-      [0.57, -0.2],
-      [-0.1, 0.8],
-      [0.1, -0.8],
-      [-1.27, 0.72],
-      [1.27, -0.72],
-      [0.05, 1.33],
-      [-0.05, -1.33]
+      [-0.28, -0.43],
+      [0.28, 0.43],
+      [-1.5, 0.59],
+      [1.5, -0.59],
+      [1.2, 0.1],
+      [-1.2, -0.1],
+      [1.58, 0.7],
+      [-1.58, -0.7],
+      [0.36, 0.95],
+      [-0.36, -0.95]
     ]
   }
 }

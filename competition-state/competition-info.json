@@ -1,6 +1,39 @@
 {
   "id": "robot-basketball-competition-20251204",
   "name": "Robot Basketball Competition 2025-12-04",
-  "robots": [],
-  "tournament": null
+  "robots": [
+    {"id": "bbatc", "name": "BBATC"},
+    {"id": "hugo-toom", "name": "Hugo Toom"},
+    {"id": "polva-passat", "name": "Põlva Passat"},
+    {"id": "robotina-robotica", "name": "Robotina Robotica"},
+    {"id": "saucisson", "name": "Saucisson"},
+    {"id": "zz", "name": "ZZ"}
+  ],
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": false
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "hugo-toom", "name": "Hugo Toom"},
+      {"id": "zz", "name": "ZZ"},
+      {"id": "robotina-robotica", "name": "Robotina Robotica"},
+      {"id": "bbatc", "name": "BBATC"},
+      {"id": "polva-passat", "name": "Põlva Passat"},
+      {"id": "saucisson", "name": "Saucisson"}
+    ],
+    "roundCount": 3,
+    "gameIDs": [1, 2, 3],
+    "byes": [],
+    "robotStartingBaskets": {
+      "hugo-toom": ["blue"],
+      "zz": ["magenta"],
+      "robotina-robotica": ["blue"],
+      "bbatc": ["magenta"],
+      "polva-passat": ["magenta"],
+      "saucisson": ["blue"]
+    },
+    "hasEnded": false
+  }
 }

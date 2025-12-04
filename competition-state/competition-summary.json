@@ -246,7 +246,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [[{"time": 1764870544830, "isValid": true}], []],
@@ -285,19 +285,25 @@
             "scores": [[], []],
             "fouls": [[{"time": 1764871055575}], [{"time": 1764870993548}]],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 36767,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60093,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [
               {"startTime": 1764870957254, "endTime": 1764870974210},
               {"startTime": 1764871013502, "endTime": 1764871033311},
-              {"startTime": 1764871073542, "endTime": null}
+              {"startTime": 1764871073542, "endTime": 1764871096870}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "robotina-robotica", "name": "Robotina Robotica"},
+          "roundWinCount": 1,
+          "roundLossCount": 0,
+          "roundTieCount": 2
+        },
         "ballPlacement": [
           [0, 0],
           [-1.24, -0.11],
@@ -390,37 +396,37 @@
     "byes": [],
     "robotScores": [
       {
-        "robot": {"id": "zz", "name": "ZZ"},
+        "robot": {"id": "bbatc", "name": "BBATC"},
         "score": 1,
-        "tieBreakScore": 0,
+        "tieBreakScore": 0.7,
         "rank": 1
       },
       {
-        "robot": {"id": "bbatc", "name": "BBATC"},
+        "robot": {"id": "polva-passat", "name": "Põlva Passat"},
         "score": 1,
-        "tieBreakScore": 0,
+        "tieBreakScore": 0.30000000000000004,
         "rank": 2
       },
       {
-        "robot": {"id": "polva-passat", "name": "Põlva Passat"},
+        "robot": {"id": "zz", "name": "ZZ"},
         "score": 1,
         "tieBreakScore": 0,
         "rank": 3
       },
       {
-        "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
-        "score": 0,
-        "tieBreakScore": 1,
+        "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
+        "score": 0.7,
+        "tieBreakScore": 1.3,
         "rank": 4
       },
       {
-        "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
-        "score": 0,
-        "tieBreakScore": 1,
+        "robot": {"id": "saucisson", "name": "Saucisson"},
+        "score": 0.30000000000000004,
+        "tieBreakScore": 1.7,
         "rank": 5
       },
       {
-        "robot": {"id": "saucisson", "name": "Saucisson"},
+        "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
         "score": 0,
         "tieBreakScore": 1,
         "rank": 6
@@ -444,7 +450,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [[{"time": 1764870544830, "isValid": true}], []],
@@ -483,19 +489,25 @@
         "scores": [[], []],
         "fouls": [[{"time": 1764871055575}], [{"time": 1764870993548}]],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 36767,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60093,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [
           {"startTime": 1764870957254, "endTime": 1764870974210},
           {"startTime": 1764871013502, "endTime": 1764871033311},
-          {"startTime": 1764871073542, "endTime": null}
+          {"startTime": 1764871073542, "endTime": 1764871096870}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "robotina-robotica", "name": "Robotina Robotica"},
+      "roundWinCount": 1,
+      "roundLossCount": 0,
+      "roundTieCount": 2
+    },
     "ballPlacement": [
       [0, 0],
       [-1.24, -0.11],

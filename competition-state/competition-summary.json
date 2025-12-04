@@ -680,20 +680,25 @@
                 {"time": 1764873180889, "isValid": true},
                 {"time": 1764873183511, "isValid": true},
                 {"time": 1764873192181, "isValid": true},
-                {"time": 1764873199435, "isValid": true}
+                {"time": 1764873199435, "isValid": true},
+                {"time": 1764873229892, "isValid": true}
               ],
-              [{"time": 1764873197791, "isValid": true}]
+              [
+                {"time": 1764873197791, "isValid": true},
+                {"time": 1764873237799, "isValid": true}
+              ]
             ],
-            "fouls": [[], [{"time": 1764873208586}]],
+            "fouls": [[{"time": 1764873246339}], [{"time": 1764873208586}]],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 29077,
+            "duration": 49728,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [
               {"startTime": 1764873174204, "endTime": 1764873203277},
-              {"startTime": 1764873217452, "endTime": null}
+              {"startTime": 1764873217452, "endTime": 1764873238102},
+              {"startTime": 1764873255463, "endTime": null}
             ]
           }
         ],
@@ -818,20 +823,25 @@
             {"time": 1764873180889, "isValid": true},
             {"time": 1764873183511, "isValid": true},
             {"time": 1764873192181, "isValid": true},
-            {"time": 1764873199435, "isValid": true}
+            {"time": 1764873199435, "isValid": true},
+            {"time": 1764873229892, "isValid": true}
           ],
-          [{"time": 1764873197791, "isValid": true}]
+          [
+            {"time": 1764873197791, "isValid": true},
+            {"time": 1764873237799, "isValid": true}
+          ]
         ],
-        "fouls": [[], [{"time": 1764873208586}]],
+        "fouls": [[{"time": 1764873246339}], [{"time": 1764873208586}]],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 29077,
+        "duration": 49728,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [
           {"startTime": 1764873174204, "endTime": 1764873203277},
-          {"startTime": 1764873217452, "endTime": null}
+          {"startTime": 1764873217452, "endTime": 1764873238102},
+          {"startTime": 1764873255463, "endTime": null}
         ]
       }
     ],
